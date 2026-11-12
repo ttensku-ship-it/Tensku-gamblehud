@@ -51,7 +51,7 @@ public class TenskuGambleHud implements ClientModInitializer {
         // HUD: profit card + payment animation
         HudElementRegistry.addLast(Identifier.fromNamespaceAndPath(MOD_ID, "hud"), (graphics, deltaTracker) -> {
             Minecraft mc = Minecraft.getInstance();
-            if (mc.options.hideGui) return;
+           
             int w = mc.getWindow().getGuiScaledWidth();
             int h = mc.getWindow().getGuiScaledHeight();
             ProfitCard.render(graphics, mc);
