@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tenskugamblehud",
+  "version": "${version}",
+  "name": "Tensku Gamble Hud",
+  "description": "Gamble HUD with profit tracker, pay confirm, themes, big-payment animation and themed chat.",
+  "authors": ["tensku"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.tensku.gamblehud.TenskuGambleHud"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
